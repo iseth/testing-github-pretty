@@ -1,0 +1,45 @@
+// stylelint-disable primer/no-override
+// stylelint-disable block-opening-brace-space-before
+// stylelint-disable primer/borders
+
+// Border colors
+.color-border-inverse   { border-color: var(--color-fg-on-emphasis) !important; }
+
+.bg-gray-2,
+.bg-gray-3 {
+  background-color: var(--color-neutral-muted) !important;
+}
+
+.color-text-white {
+  color: var(--color-scale-white) !important;
+}
+
+// TODO: Move somewhere. This is still needed for the mobile header or marketing pages like https://github.com/features/security
+.border-white-fade  { border-color: rgba($static-color-white, 0.15) !important; }
+
+/* Typography colors */
+
+.lead {
+  color: var(--color-fg-muted);
+}
+
+.text-emphasized {
+  color: var(--color-fg-default);
+}
+
+// Labels
+
+.Label.Label--orange {
+  color: var(--color-severe-fg);
+  border-color: var(--color-severe-emphasis);
+}
+
+.Label.Label--purple {
+  color: var(--color-done-fg);
+  border-color: var(--color-done-emphasis);
+}
+
+.Label.Label--pink {
+  color: var(--color-sponsors-fg);
+  border-color: var(--color-sponsors-emphasis);
+}
